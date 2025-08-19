@@ -1,0 +1,7 @@
+/* These styles make the map component fill the entire browser window */
+body, #root, .map-container {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  width: 100vw;
+}
