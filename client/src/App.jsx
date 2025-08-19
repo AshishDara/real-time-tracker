@@ -27,7 +27,7 @@ const customIcon = new L.Icon({
 
 function App() {
   // useMemo creates the socket connection once and prevents it from being recreated on every render
-  const socket = useMemo(() => io("http://localhost:3000"), []);
+  const socket = useMemo(() => io("real-time-tracker-production-ab97.up.railway.app"), []);
   
   // useState hooks to manage the component's state
   const [position, setPosition] = useState([28.6139, 77.2090]); // User's own position
