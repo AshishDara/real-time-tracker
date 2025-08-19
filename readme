@@ -1,0 +1,140 @@
+# Realtime-Tracker: Live Location Sharing on a Map 🗺️
+
+**A real-time web application that allows multiple users to share and view their locations on an interactive map.**
+
+---
+
+## ✨ Overview
+
+**Realtime-Tracker** is a web application built with React on the frontend and Node.js with Socket.IO on the backend. It enables users to:
+
+* **Share their current location in real-time.**
+* **View the live locations of other connected users on a map.**
+* **Experience instant updates as users move.**
+
+This project demonstrates real-time communication using WebSockets, frontend mapping with Leaflet, and full-stack development principles.
+
+---
+
+## 📸 Screenshots
+
+### Initial Map View 📍
+
+Upon loading the application, the map centers on the user's current location (if permission is granted).
+
+
+### Multiple Users Tracking 👥
+
+As more users connect and share their location, their markers appear on the map, updating in real-time as they move.
+
+
+### User Marker Popup ℹ️
+
+Clicking on a user's marker reveals a small popup displaying a truncated version of their unique connection ID.
+
+
+---
+
+## 🚀 Features
+
+* **Real-time Location Sharing**: Utilizes the browser's geolocation API to continuously broadcast the user's location.
+* **Interactive Map**: Implemented with Leaflet, providing a smooth and responsive map experience with pan and zoom controls.
+* **Socket.IO for Real-time Communication**: Enables bidirectional, low-latency communication between the clients and the server.
+* **Clear User Interface**: A simple and intuitive design focused on the map and user locations.
+* **Customizable Marker Icons**: Uses custom Leaflet marker icons for a consistent visual style.
+
+---
+
+## 🛠️ Technologies Used
+
+* **Frontend**:
+    * React
+    * React Leaflet
+    * Socket.IO Client
+    * Vite (Build Tool)
+* **Backend**:
+    * Node.js
+    * Express
+    * Socket.IO
+    * CORS
+    * dotenv (for environment variables)
+* **Deployment**:
+    * Netlify (for Frontend)
+    * Railway (for Backend)
+* **Version Control**:
+    * Git
+    * GitHub
+
+---
+
+## ⚙️ Setup Instructions
+
+Follow these steps to get the project running locally:
+
+1.  **Clone the Repository**:
+    Clone the `realtime-tracker` repository from your GitHub account to your local machine.
+    
+    ```bash
+    git clone YOUR_REPOSITORY_URL
+    cd realtime-tracker
+    ```
+
+2.  **Install Backend Dependencies**:
+    Navigate to the `server` directory and install the required packages.
+    
+    ```bash
+    cd server
+    npm install
+    cd ..
+    ```
+
+3.  **Create Backend Environment File**:
+    In the `server` directory, create a `.env` file and add the following (you can modify the port if needed).
+    
+    ```
+    PORT=3000
+    ```
+
+4.  **Install Frontend Dependencies**:
+    Navigate to the `client` directory and install the required packages.
+    
+    ```bash
+    cd client
+    npm install
+    cd ..
+    ```
+
+5.  **Run the Development Servers**:
+    Open two separate terminal windows.
+    
+    * **Terminal 1 (Backend)**:
+        Navigate to the `server` directory and run the development server.
+        
+        ```bash
+        cd server
+        npm run dev
+        ```
+        
+    * **Terminal 2 (Frontend)**:
+        Navigate to the `client` directory and run the frontend development server.
+        
+        ```bash
+        cd client
+        npm run dev
+        ```
+
+6.  **Open in Browser**:
+    Open your web browser and navigate to the address provided by the frontend development server (usually `http://localhost:5173`).
+
+---
+
+## 🔗 Live Demo
+
+You can see a live version of the application here:
+
+* **Frontend**: [YOUR_NETLIFY_DEPLOYMENT_LINK](YOUR_NETLIFY_DEPLOYMENT_LINK)
+* **Backend**: [YOUR_RAILWAY_DEPLOYMENT_LINK](YOUR_RAILWAY_DEPLOYMENT_LINK)
+
+*Note: The backend URL is generally not directly accessible in a browser but is used by the frontend application.*
+
+---
