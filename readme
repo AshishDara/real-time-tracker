@@ -16,7 +16,6 @@ This project demonstrates real-time communication using WebSockets, frontend map
 
 ---
 
-## 📸 Screenshots
 
 ### Initial Map View 📍
 
@@ -132,8 +131,8 @@ Follow these steps to get the project running locally:
 
 You can see a live version of the application here:
 
-* **Frontend**: [YOUR_NETLIFY_DEPLOYMENT_LINK](YOUR_NETLIFY_DEPLOYMENT_LINK)
-* **Backend**: [YOUR_RAILWAY_DEPLOYMENT_LINK](YOUR_RAILWAY_DEPLOYMENT_LINK)
+* **Frontend**: [[YOUR_NETLIFY_DEPLOYMENT_LINK](https://real-time-tracker-seven-nu.vercel.app/)]
+* **Backend**: [[YOUR_RAILWAY_DEPLOYMENT_LINK](https://real-time-tracker-production-ab97.up.railway.app/)]
 
 *Note: The backend URL is generally not directly accessible in a browser but is used by the frontend application.*
 
